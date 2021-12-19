@@ -1,7 +1,11 @@
+import Header from "./Bootstrap/Header";
+
 const App = () => {
   return (
     <div className="App">
-      <h1>Job Portal</h1>
+      <Header dark={true} className="Header justify-content-center">
+        WiOS Job Portal
+      </Header>
     </div>
   );
 };
